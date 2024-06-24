@@ -1,1 +1,1 @@
-# Tic-Tac-Toe by using HTML, CSS and JS
+Tic Tac Toe is a simple two-player game where players take turns marking spaces in a 3x3 grid. The objective is to be the first to place three of their marks in a horizontal, vertical, or diagonal row. This implementation uses HTML, CSS, and JavaScript to create a web-based version of the game.
