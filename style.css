@@ -68,7 +68,7 @@ body {
     grid-template-rows: repeat(3, 1fr);
     height: 250px;
     width: 250px;
-    margin: 30px auto;
+    margin: 32px auto;
     border: 2px solid black;
 }
 
@@ -94,7 +94,7 @@ body {
 }
 
 #play-again:hover {
-    padding: 10px 40px;
+    padding: 10px 30px;
     background-color: green;
 }
 
