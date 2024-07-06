@@ -66,8 +66,8 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    height: 250px;
-    width: 250px;
+    height: 290px;
+    width: 300px;
     margin: 32px auto;
     border: 2px solid black;
 }
@@ -98,7 +98,7 @@ body {
     background-color: green;
 }
 
-
+/* For Mobile Devices */
 @media (max-width: 599px) {
     .image img {
         height: 100px;
@@ -111,8 +111,8 @@ body {
     }
 
     .main-grid {
-        height: 350px;
-        width: 350px;
+        height: 300px;
+        width: 300px;
         margin: 20px auto;
     }
 
@@ -130,6 +130,7 @@ body {
     }
 }
 
+/* For Tab Devices */
 @media (min-width: 600px) and (max-width: 1023px) {
     .image img {
         height: 125px;
@@ -142,8 +143,8 @@ body {
     }
 
     .main-grid {
-        height: 225px;
-        width: 225px;
+        height: 325px;
+        width: 325px;
         margin: 25px auto;
     }
 
