@@ -3,7 +3,6 @@
     font-family: sans-serif;
     transition: 0.2s ease-in-out;
     user-select: none;
-
 }
 
 .align {
@@ -22,14 +21,14 @@ body {
 }
 
 .image img {
-    height: 150px;
-    width: 500px;
-    margin-bottom: 30px;
+    height: 100px;
+    width: 300px;
+    margin-bottom: 20px;
 }
 
 .turn-container {
-    width: 170px;
-    height: 80px;
+    width: 150px;
+    height: 70px;
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -45,7 +44,7 @@ body {
 
 .turn-container .turn-box {
     border: 3px solid black;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: 700;
 }
 
@@ -57,8 +56,8 @@ body {
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 85px;
-    height: 40px;
+    width: 75px;
+    height: 35px;
     background-color: #ff2e63;
     z-index: -1;
 }
@@ -67,15 +66,15 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    height: 250px;
-    width: 250px;
-    margin: 30px auto;
+    height: 200px;
+    width: 200px;
+    margin: 20px auto;
     border: 2px solid black;
 }
 
 .box {
     cursor: pointer;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 700;
     border: 2px solid black;
 }
@@ -86,15 +85,57 @@ body {
 
 #play-again {
     background-color: #ff2e63;
-    padding: 10px 30px;
+    padding: 8px 20px;
     border: none;
-    font-size: 1.2rem;
+    font-size: 1rem;
     border-radius: 20px;
     cursor: pointer;
     display: none;
 }
 
 #play-again:hover {
-    padding: 10px 40px;
+    padding: 8px 20px;
     background-color: green;
+}
+
+
+@media (min-width: 600px) {
+    .image img {
+        height: 150px;
+        width: 500px;
+        margin-bottom: 30px;
+    }
+
+    .turn-container {
+        width: 170px;
+        height: 80px;
+    }
+
+    .turn-container .turn-box {
+        font-size: 1.6rem;
+    }
+
+    .bg {
+        width: 85px;
+        height: 40px;
+    }
+
+    .main-grid {
+        height: 250px;
+        width: 250px;
+        margin: 30px auto;
+    }
+
+    .box {
+        font-size: 2rem;
+    }
+
+    #play-again {
+        padding: 10px 30px;
+        font-size: 1.2rem;
+    }
+
+    #play-again:hover {
+        padding: 10px 40px;
+    }
 }
