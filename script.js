@@ -38,7 +38,7 @@ function cheakWin(){
     
         if (v0 !== "" && v0 === v1 && v0 === v2) {
             isGameOver = true;
-            document.querySelector("#results").innerHTML = turn + " Win!";
+            document.querySelector("#results").innerHTML = turn + " Win🏆";
             document.querySelector("#play-again").style.display = "inline";
     
             for (let j = 0; j < 3; j++) {
@@ -59,7 +59,7 @@ function checkDraw(){
 
         if(isDraw){
             isGameOver = true;
-            document.querySelector("#results").innerHTML = " Draw!";
+            document.querySelector("#results").innerHTML = " Draw😊";
             document.querySelector("#play-again").style.display = "inline";     
         }
     }
