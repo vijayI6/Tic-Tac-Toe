@@ -126,7 +126,7 @@ body {
     }
 
     #play-again:hover {
-        padding: 8px 30px;
+        padding: 8px 20px;
     }
 }
 
@@ -157,6 +157,6 @@ body {
     }
 
     #play-again:hover {
-        padding: 9px 35px;
+        padding: 9px 25px;
     }
 }
