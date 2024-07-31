@@ -21,9 +21,9 @@ body {
 }
 
 .image img {
-    height: 150px;
+    height: 140px;
     width: 500px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .turn-container {
