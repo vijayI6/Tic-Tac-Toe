@@ -12,7 +12,7 @@ Tic Tac Toe is a simple two-player game where players take turns marking spaces 
 
 ## Demo
 
-You can view a live demo of the game https://tictattoe.netlify.app
+You can view a live demo of the game 
 
 ## Features
 
