@@ -98,7 +98,7 @@ body {
   background-color: rgb(19, 212, 19);
 }
 
-footer{
+footer {
   color: white;
   font-size: 22px;
 }
@@ -132,6 +132,10 @@ footer{
 
   #play-again:hover {
     padding: 8px 20px;
+  }
+
+  footer {
+    font-size: 18px;
   }
 }
 
