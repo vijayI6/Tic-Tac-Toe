@@ -74,7 +74,7 @@ body {
 
 .box {
   cursor: pointer;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 700;
   border: 2px solid black;
 }
