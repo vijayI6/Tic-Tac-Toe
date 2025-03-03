@@ -66,8 +66,8 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  height: 290px;
-  width: 300px;
+  height: 400px;
+  width: 400px;
   margin: 32px auto;
   border: 2px solid black;
 }
@@ -95,7 +95,12 @@ body {
 
 #play-again:hover {
   padding: 10px 30px;
-  background-color: green;
+  background-color: rgb(19, 212, 19);
+}
+
+footer{
+  color: white;
+  font-size: 22px;
 }
 
 /* For Mobile Devices */
