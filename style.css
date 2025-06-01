@@ -21,7 +21,7 @@ body {
 }
 
 .image img {
-  height: 140px;
+  height: 100px;
   width: 500px;
   margin-bottom: 10px;
 }
@@ -66,8 +66,8 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  height: 400px;
-  width: 400px;
+  height: 300px;
+  width: 270px;
   margin: 32px auto;
   border: 2px solid black;
 }
@@ -84,6 +84,7 @@ body {
 }
 
 #play-again {
+  margin-bottom: 20px;
   background-color: #ff2e63;
   padding: 10px 30px;
   font-size: 1.2rem;
@@ -98,9 +99,10 @@ body {
 }
 
 footer {
-  color: white;
-  font-size: 22px;
+  color: aliceblue;
+  font-size: 20px;
 }
+
 
 /* For Mobile Devices */
 @media (max-width: 599px) {
