@@ -112,7 +112,7 @@ footer {
   }
 
   .turn-container .turn-box {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 
   .main-grid {
@@ -129,10 +129,6 @@ footer {
     font-size: 1rem;
   }
 
-  #play-again:hover {
-    padding: 8px 20px;
-  }
-
   footer {
     font-size: 15px;
   }
@@ -147,7 +143,7 @@ footer {
   }
 
   .turn-container .turn-box {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .main-grid {
